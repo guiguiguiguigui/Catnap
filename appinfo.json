@@ -10,9 +10,7 @@
   "watchapp": {
     "watchface": false
   },
-  "appKeys": {
-    "dummy": 0
-  },
+  "appKeys": {},
   "resources": {
     "media": []
   },
