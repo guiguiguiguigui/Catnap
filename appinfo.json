@@ -1,0 +1,19 @@
+{
+  "uuid": "6fc05689-07b2-4679-964a-288697937d79",
+  "shortName": "catNap",
+  "longName": "catNap",
+  "companyName": "WHack",
+  "versionLabel": "1.0",
+  "sdkVersion": "3",
+  "targetPlatforms": ["aplite", "basalt", "chalk"],
+  "enableMultiJS": true,
+  "watchapp": {
+    "watchface": false
+  },
+  "appKeys": {
+    "dummy": 0
+  },
+  "resources": {
+    "media": []
+  }
+}
