@@ -15,5 +15,7 @@
   },
   "resources": {
     "media": []
-  }
+  },
+  "capabilities": ["health"]
+
 }
