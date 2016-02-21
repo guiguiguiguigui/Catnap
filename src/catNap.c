@@ -1,8 +1,5 @@
 
 #include <pebble.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 
 
 static Window *s_main_window;
@@ -29,8 +26,7 @@ char *itoa(int num){
       buff[i] = '\0'; // can't forget the null byte to properly end our string
       return buff;
     }
-    else
-    return "Unsupported Number";
+    else return "Unsupported Number";
     return string;
 }
 
@@ -65,7 +61,7 @@ static void main_window_load(Window *window) {
   char* totalSteps = itoa(stepsToday);
 
   // Improve the layout to be more like a watchface
-  text_layer_set_background_color(s_time_layer, GColorClear);
+  text_layer_set_background_color(s_time_layer, GColorBlack);
   text_layer_set_text_color(s_time_layer, GColorBlack);
   text_layer_set_text(s_time_layer, totalSteps);
   text_layer_set_font(s_time_layer, fonts_get_system_font(FONT_KEY_BITHAM_42_BOLD));
